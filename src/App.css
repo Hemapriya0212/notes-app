@@ -1,0 +1,89 @@
+/* App Container Styling */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff; /* Change text color to white for better contrast */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar Styling */
+.MuiAppBar-root {
+background-color: #A0E7E5;
+}
+
+/* Profile Modal Styling */
+.profile-modal {
+  position: absolute;
+  top: 20%;
+  right: 20px;
+  width: 300px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #A0E7E5; /* Cool blue gradient background */
+  color: #333;
+}
+
+.profile-modal h6 {
+  color: #fff; /* Title color to white */
+  margin-bottom: 16px;
+}
+
+.profile-modal .MuiBox-root {
+  color: #fff; /* Text color */
+}
+
+.profile-modal .MuiButton-containedPrimary {
+  background-color: #ff6f61; /* Button background color */
+  color: #fff; /* Button text color */
+}
+
+.profile-modal .MuiButton-containedPrimary:hover {
+  background-color: #ff3d00; /* Button hover color */
+}
+
+/* Search Bar Container Styling */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* Note List Container Styling */
+.note-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Note Card Styling */
+.note-card {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent background for note cards */
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333; /* Text color */
+}
+
+/* Add Note Button Styling */
+.add-note-button {
+  flex-shrink: 0;
+}
+
+/* Note Modal Styling */
+.note-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  padding: 32px;
+  background-color: #fff;
+  box-shadow: 24px;
+  border-radius: 8px;
+  color: #333;
+}

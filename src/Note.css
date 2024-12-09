@@ -1,0 +1,36 @@
+.note-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-container h2 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .note-container input, .note-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .note-container button {
+    width: 100%;
+    padding: 12px;
+    background: #A0E7E5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .note-container button:hover {
+    background: #A0E7E5;
+  }
+  

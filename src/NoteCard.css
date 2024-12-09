@@ -1,0 +1,24 @@
+.note-card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 200px; /* Set a minimum height */
+  width: 100%; /* Ensure it takes full width of the grid item */
+}
+
+.tags {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.actions {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  margin: 4px 0;
+}

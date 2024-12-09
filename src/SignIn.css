@@ -1,0 +1,61 @@
+.signin-container, .signup-container {
+  max-width: 400px;
+  width: 100%; /* Ensure the container takes up full width */
+  margin: 0 auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 16px; /* Adding border radius */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Adding shadow */
+  text-align: center;
+
+  /* Centering the container */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box; /* Ensuring padding is included in total width/height */
+}
+
+.signin-container h2, .signup-container h2 {
+  margin-bottom: 24px;
+}
+
+.signin-container input, .signup-container input {
+  width: calc(100% - 24px); /* Ensure input fields fit within the container */
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Adding border radius */
+  box-sizing: border-box; /* Ensuring padding is included in total width/height */
+}
+
+.signin-container button, .signup-container button {
+  width: calc(100% - 24px); /* Ensure button fits within the container */
+  padding: 12px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Adding border radius */
+  cursor: pointer;
+  box-sizing: border-box; /* Ensuring padding is included in total width/height */
+}
+
+.signin-container button:hover, .signup-container button:hover {
+  background: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-top: 24px;
+  color: black;
+}
+
+p span {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}

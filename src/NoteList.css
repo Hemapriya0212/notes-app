@@ -1,0 +1,35 @@
+.note-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add space between the elements */
+  gap: 16px;
+}
+
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.add-note-button {
+  flex-shrink: 0; /* Ensure the button doesn't shrink */
+}
+
+.note-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  padding: 32px;
+  background-color: #fff;
+  box-shadow: 24px;
+  border-radius: 8px;
+}
